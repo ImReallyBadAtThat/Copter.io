@@ -1,4 +1,4 @@
-console.log("Modified.io 0.0.1")
+console.log("Modified.io 0.0.1");
 ! function(a) {
 	function b(a) {
 		if (x = q(b), !(a < e + l)) {
@@ -24111,6 +24111,7 @@ var helic = function() {
 				})
 		},
 		backToHomepage: function() {
+			console.log("Homepage - Modified.io");
 			MainLoop.stop(), h && 1 == h.readyState && (c = !0, h.close()), document.getElementById("fps").style.display = "none", f.view.style.display = "none", de = 0, "undefined" != typeof gtag && gtag("event", "BackToHomepage", {
 				event_category: "Click"
 			}), window.location.reload()
